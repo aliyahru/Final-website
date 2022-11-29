@@ -416,6 +416,7 @@ navbar li:hover::after{
 .dishInfo h3{
     font-family: 'Lora', serif;
   font-size: 25px;
+  color: orange;
   }
 .dishInfo li{
     font-family: 'Raleway', sans-serif;
