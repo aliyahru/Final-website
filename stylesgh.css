@@ -120,5 +120,8 @@ navbar li:hover::after{
     padding-bottom: 20px;
   }
 
+#ending {
+    text-align: center;
+}
 
 
