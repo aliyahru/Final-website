@@ -103,27 +103,91 @@ h1 {
   }
   
   
-  #mainNav {
-    background: orange;
-  }
-  
-  #mainNav ul {
-    padding: 20px;
-    margin: 0px;
-    list-style: none;
-  }
-  
-  #mainNav li {
-    display: inline;
-    padding: 10px 40px;
-  }
-  
-  #mainNav a {
-    color: black;
-    text-decoration: none;
-    font-size: 20px
-  }
-  
-  #mainNav li:hover {
-    background: white
-  }
+  #navigation {
+    
+    list-style-type:none;
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    background-color:#F8A13E;
+    width: 100%;
+    line-height: 70px;
+    text-align: center;
+    
+}
+
+.websiteNameBar{
+  padding-top: 20px;
+  font-family: 'Lora', serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.websiteHeading {
+  padding-top: 20px;
+  font-family: 'Lora', serif;
+  font-size: 40px;
+  text-align: center;
+  color: orange
+}
+.longDivider {
+  flex-grow: 1;
+  border-top: 3px solid #d38a36;
+  margin: 0px;
+
+}
+navbar li{
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+navbar a:link{
+  color: black;
+  text-decoration: none;
+}
+navbar a:visited{
+  color: black;
+  text-decoration: none;
+}
+navbar a:hover{
+  color: black;
+  text-decoration: none;
+}
+navbar a:active{
+  color:black;
+  text-decoration: none;
+}
+
+navbar li{
+  border:none;
+  position: relative;
+}
+navbar li:hover{
+  border: none;
+}
+
+.active{
+color:white;
+font: bold;
+font-size: 30px;
+background-color: #fac282;
+
+}
+
+navbar li::after{
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 5px;
+  left: 50%;
+  bottom:0;
+  background-color:#91CB3E ;
+  transition: all ease-in-out .2s;
+
+}  
+navbar li:hover::after{
+  width: 100%;
+  left: 0;
+}
