@@ -406,3 +406,24 @@ navbar li:hover::after{
     right: 1rem;
   } 
 
+.dishInfo{
+    padding-left: 50px;
+  }
+.dishInfo p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+  }
+.dishInfo h3{
+    font-family: 'Lora', serif;
+  font-size: 25px;
+  }
+.dishInfo li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.dishInfo a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+  
+
