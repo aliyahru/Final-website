@@ -229,6 +229,14 @@ visibility: visible;
   font-size: 40px;
   text-align: center;
 }
+
+.websiteHeading {
+  padding-top: 20px;
+  font-family: 'Lora', serif;
+  font-size: 40px;
+  text-align: center;
+  color: orange
+}
 .longDivider {
   flex-grow: 1;
   border-top: 3px solid #d38a36;
