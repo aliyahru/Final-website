@@ -31,27 +31,28 @@ h1 {
   }
   
   
-  #mainNav {
-    background: orange;
-  }
-  
-  #mainNav ul {
-    padding: 20px;
-    margin: 0px;
-    list-style: none;
-  }
-  
-  #mainNav li {
-    display: inline;
-    padding: 10px 40px;
-  }
-  
-  #mainNav a {
-    color: black;
-    text-decoration: none;
-    font-size: 20px
-  }
-  
-  #mainNav li:hover {
-    background: white
-  }
+  #navigation {
+    
+    list-style-type:none;
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    background-color:#F8A13E;
+    width: 100%;
+    line-height: 70px;
+    text-align: center;
+      
+      }
+.longDivider {
+  flex-grow: 1;
+  border-top: 3px solid #d38a36;
+  margin: 0px;
+
+}
+navbar li{
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
