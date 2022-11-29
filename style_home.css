@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+}
+
+.world_map {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .world_map img {
+    width: 100%;
+    height: auto;
+    outline: dashed;
+    outline-color: #d38a36;
+    
+  }
+/* NIGERIA WORLD MAP */
+  .world_map #nigeria {
+    
+    position: absolute;
+    top: 66%;
+    left: 49.3%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    border-radius: 20px;
+    background-color: blue;
+
+    padding: 7px 7px;
+    border: none;
+    cursor: pointer;
+
+  }
+  .tooltip_nigeria .tooltiptext_nigeria{
+    visibility: hidden;
+    width: 180px;
+    background-color: #3C787E;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 68%;
+    left: 49.3%;
+    margin-left: -90px;
+  }
+  .tooltip_nigeria .tooltiptext_nigeria::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #3C787E transparent;
+  }
+  
+  .tooltip_nigeria:hover .tooltiptext_nigeria {
+  visibility: visible;
+  }
+
+
+
+/* JAMAICA WORLD MAP */
+  .world_map #jamaica {
+    
+    position: absolute;
+    top: 61.3%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    border-radius: 20px;
+    background-color: purple;
+
+    padding: 7px 7px;
+    border: none;
+    cursor: pointer;
+
+  }
+
+
+  .tooltip_jamaica .tooltiptext_jamaica {
+    visibility: hidden;
+    width: 180px;
+    background-color: #3C787E;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 63%;
+    left: 27%;
+    margin-left: -90px;
+  }
+  .tooltip_jamaica .tooltiptext_jamaica::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #3C787E transparent;
+}
+
+.tooltip_jamaica:hover .tooltiptext_jamaica {
+  visibility: visible;
+}
+
+
+/* GHANA WORLD MAP */
+.world_map #ghana {
+    
+  position: absolute;
+  top: 65.5%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  border-radius: 20px;
+  background-color:salmon;
+
+  padding: 7px 7px;
+  border: none;
+  cursor: pointer;
+
+}
+
+
+.tooltip_ghana .tooltiptext_ghana {
+  visibility: hidden;
+  width: 180px;
+  background-color: #3C787E;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 67.5%;
+  left: 47%;
+  margin-left: -90px;
+}
+.tooltip_ghana .tooltiptext_ghana::after {
+content: "";
+position: absolute;
+bottom: 100%;
+left: 50%;
+margin-left: -5px;
+border-width: 5px;
+border-style: solid;
+border-color: transparent transparent #3C787E transparent;
+}
+
+.tooltip_ghana:hover .tooltiptext_ghana {
+visibility: visible;
+}
+
+/* WORLD MAP BULGARIA */
+.world_map #bulgaria {
+    
+  position: absolute;
+  top: 53%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  border-radius: 20px;
+  background-color:lightseagreen;
+
+  padding: 7px 7px;
+  border: none;
+  cursor: pointer;
+
+}
+
+
+.tooltip_bulgaria .tooltiptext_bulgaria {
+  visibility: hidden;
+  width: 180px;
+  background-color: #3C787E;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 55%;
+  left: 54%;
+  margin-left: -90px;
+}
+.tooltip_bulgaria .tooltiptext_bulgaria::after {
+content: "";
+position: absolute;
+bottom: 100%;
+left: 50%;
+margin-left: -5px;
+border-width: 5px;
+border-style: solid;
+border-color: transparent transparent #3C787E transparent;
+}
+
+.tooltip_bulgaria:hover .tooltiptext_bulgaria {
+visibility: visible;
+}
+  
+#navigation {
+    
+    list-style-type:none;
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    background-color:#F8A13E;
+    width: 100%;
+    line-height: 70px;
+    text-align: center;
+    
+}
+
+.websiteNameBar{
+  padding-top: 20px;
+  font-family: 'Lora', serif;
+  font-size: 40px;
+  text-align: center;
+}
+.longDivider {
+  flex-grow: 1;
+  border-top: 3px solid #d38a36;
+  margin: 0px;
+
+}
+navbar li{
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+navbar a:link{
+  color: black;
+  text-decoration: none;
+}
+navbar a:visited{
+  color: black;
+  text-decoration: none;
+}
+navbar a:hover{
+  color: black;
+  text-decoration: none;
+}
+navbar a:active{
+  color:black;
+  text-decoration: none;
+}
+
+navbar li{
+  border:none;
+  position: relative;
+}
+navbar li:hover{
+  border: none;
+}
+
+.active{
+color:white;
+font: bold;
+font-size: 30px;
+background-color: #fac282;
+
+}
+
+navbar li::after{
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 5px;
+  left: 50%;
+  bottom:0;
+  background-color:#91CB3E ;
+  transition: all ease-in-out .2s;
+
+}  
+navbar li:hover::after{
+  width: 100%;
+  left: 0;
+}
+#home_welcome, #home_map{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#home_welcome h2{
+  padding-top: 20px;
+  font-family: 'Lora', serif;
+  font-size: 35px;
+}
+
+ #map_container{
+  padding-left: 25%;
+}
+#home_map h2{
+  padding-top: 20px;
+  font-family: 'Lora', serif;
+  font-size: 35px;
+}
+
+#home_welcome, #home_map p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
+#seperator{
+  flex-grow: 1;
+  border-bottom: 3px dashed #d38a36;
+  margin: 5px;
+  margin-left: 300px;
+  margin-right: 300px;
+
+}
+
